@@ -13,17 +13,20 @@ body {
 }
 button {
     width: 90%;
-    min-height: 15vh;
+    min-height: 8vh;
     margin: 12px auto;
     display: block;
-    font-size: 55pt;
+    padding: 1vh;
+    font-size: 5vw; /* more responsive */
     font-weight: 500;
     color: #fff;
     background-color: #1e88e5;
     border: none;
     border-radius: 16px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    touch-action: manipulation;
+    box-sizing: border-box;
+    line-height: 1.2;
+    word-break: break-word;
+    white-space: normal; /* ✅ allow wrapping */
 }
 button.nav-button {
     background-color: orange;
