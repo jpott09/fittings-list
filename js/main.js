@@ -1,6 +1,6 @@
 // imports
-import { Network } from "./network.js";
-import { Display } from "./display.js";
+import { Network } from ".js/network.js";
+import { Display } from ".js/display.js";
 // paths
 const base = `/${location.pathname.split('/')[1]}`;
 const fittings_path = `${base}/data/Fittings.json`;
