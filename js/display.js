@@ -1,5 +1,5 @@
-import { Fittings } from "./fittings.js";
-import { Storage } from "./storage.js";
+import { Fittings } from "js/fittings.js";
+import { Storage } from "js/storage.js";
 
 export class Display{
     body = null;
