@@ -1,0 +1,401 @@
+[
+    {
+        "type": "22",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "22",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "22",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "22 street",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "22 street",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "22 street",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "45",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "45",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "45",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "45 street",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "45 street",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "45 street",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "90",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "90",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "90",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "90 long",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "90 long",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "90 long",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "90 street",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "90 street",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "90 street",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "bushing",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5
+        ]
+    },
+    {
+        "type": "bushing",
+        "size": 3,
+        "sizes": [
+            3,
+            2
+        ]
+    },
+    {
+        "type": "combo",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "combo",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "combo",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5
+        ]
+    },
+    {
+        "type": "combo",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "combo",
+        "size": 3,
+        "sizes": [
+            3,
+            2
+        ]
+    },
+    {
+        "type": "coupling",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "coupling",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "coupling",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "double fixture fitting",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "double fixture fitting",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "double fixture fitting",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5
+        ]
+    },
+    {
+        "type": "double fixture fitting",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "double fixture fitting",
+        "size": 3,
+        "sizes": [
+            3,
+            2
+        ]
+    },
+    {
+        "type": "heel outlet 90",
+        "size": 3,
+        "sizes": [
+            3,2,3
+        ]
+    },
+    {
+        "type": "tap tee",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "tap tee",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "tap tee",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5,
+            2
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5,
+            1.5
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "tee",
+        "size": 3,
+        "sizes": [
+            3,
+            2
+        ]
+    },
+    {
+        "type": "trap",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "trap",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "trap",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "wye",
+        "size": 1.5,
+        "sizes": [
+            1.5
+        ]
+    },
+    {
+        "type": "wye",
+        "size": 2,
+        "sizes": [
+            2
+        ]
+    },
+    {
+        "type": "wye",
+        "size": 2,
+        "sizes": [
+            2,
+            1.5
+        ]
+    },
+    {
+        "type": "wye",
+        "size": 3,
+        "sizes": [
+            3
+        ]
+    },
+    {
+        "type": "wye",
+        "size": 3,
+        "sizes": [
+            3,
+            2
+        ]
+    }
+]
