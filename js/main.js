@@ -6,7 +6,5 @@ const base = `/${location.pathname.split('/')[1]}`;
 const fittings_path = `${base}/data/Fittings.json`;
 // elements
 // data
-(async () => {
-    const data = await Network.jsonRequest(fittings_path);
-    const display = new Display(document, data);
-})();
+const data = await Network.jsonRequest(fittings_path);
+const display = new Display(document, data);
