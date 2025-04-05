@@ -2,9 +2,9 @@
     --radius-btn: 20vw;
     --radius-label: 5vw;
     --font-size: 5vw;
-    --shadow-btn: 0 6px 12px rgba(0, 0, 0, 0.4);
-    --shadow-inset: inset 0 -2px 4px rgba(0,0,0,0.3);
-    --shadow-label: 0 2px 4px rgba(0,0,0,0.25);
+    --shadow-btn: 0 8px 16px rgba(0, 0, 0, 0.5);
+    --shadow-inset: inset 0 -3px 6px rgba(0, 0, 0, 0.35);
+    --shadow-label: 0 4px 8px rgba(0, 0, 0, 0.4);
     --transition-fast: 0.1s ease-out;
 }
 
@@ -12,7 +12,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background: radial-gradient(circle at top, #111 0%, #000 100%);
+    background: radial-gradient(circle at 30% 10%, #2a2a2a 0%, #000 100%);
     color: white;
     font-family: system-ui, sans-serif;
     display: flex;
@@ -28,7 +28,7 @@ button {
     width: 90%;
     min-height: 8vh;
     margin: 12px auto;
-    padding: 1vh;
+    padding: 1.2vh;
     font-size: var(--font-size);
     font-weight: 600;
     color: #fff;
@@ -36,7 +36,7 @@ button {
     border-radius: var(--radius-btn);
     box-sizing: border-box;
     background-color: #1e88e5;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(0,0,0,0.15));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.25));
     box-shadow: var(--shadow-btn), var(--shadow-inset);
     line-height: 1.2;
     word-break: break-word;
@@ -46,25 +46,26 @@ button {
 }
 
 button:active {
-    transform: translateY(2px) scale(0.98);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3), inset 0 1px 3px rgba(0,0,0,0.4);
+    transform: translateY(3px) scale(0.97);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 /* Specialized Buttons */
 button.nav-button {
     background-color: #ff9800;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.07), rgba(0,0,0,0.2));
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.12), rgba(0,0,0,0.25));
 }
 
 button.add-button {
     background-color: #00acc1;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.07), rgba(0,0,0,0.2));
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.12), rgba(0,0,0,0.25));
     margin-top: 3vh;
-    box-shadow: 0 0 12px rgba(0,255,255,0.2), var(--shadow-btn);
+    box-shadow: 0 0 16px rgba(0, 255, 255, 0.25), var(--shadow-btn);
 }
 
 button.clear-button {
     background-color: #fb8c00;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.12), rgba(0,0,0,0.25));
     margin-top: 5vh;
 }
 
@@ -93,6 +94,7 @@ label {
     text-align: center;
     box-shadow: var(--shadow-label);
     box-sizing: border-box;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(0,0,0,0.1));
 }
 
 label.unpicked {
@@ -102,21 +104,31 @@ label.unpicked {
 label.picked {
     background-color: rgb(34, 36, 53);
 }
-
-/* Fitting Type Colors */
 button.twentytwo {
-    background: linear-gradient(145deg, #b400db, #9100aa);
+    background: 
+        linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.25)),
+        linear-gradient(145deg, #d800ff 0%, #7b00c7 100%);
+    box-shadow: 0 0 14px rgba(183, 1, 207, 0.6), var(--shadow-btn);
 }
 
 button.fortyfive {
-    background: linear-gradient(145deg, #dbdd00, #b6b800);
+    background:
+        linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.25)),
+        linear-gradient(145deg, #ffff33 0%, #c9c900 100%);
     color: #111;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5), var(--shadow-btn);
 }
 
 button.ninety {
-    background: linear-gradient(145deg, #a40000, #cc0000);
+    background:
+        linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.25)),
+        linear-gradient(145deg, #ff3333 0%, #aa0101 100%);
+    box-shadow: 0 0 12px rgba(200, 0, 0, 0.6), var(--shadow-btn);
 }
 
 button.tee {
-    background: linear-gradient(145deg, #0fa600, #1fd100);
+    background:
+        linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.25)),
+        linear-gradient(145deg, #00ff66 0%, #00a943 100%);
+    box-shadow: 0 0 12px rgba(0, 255, 100, 0.5), var(--shadow-btn);
 }
