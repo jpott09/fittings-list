@@ -1,49 +1,61 @@
 export class Fittings{
-    constructor(fittings_json){
-        if(Object.keys(fittings_json).length == 0){
-            console.error("The fittings json passed to Fittings Class is invalid");
+    constructor(data_list) {
+        if (!Array.isArray(data_list) || data_list.length === 0) {
+            console.error("The data list passed to Fittings class has no elements");
             return;
         }
-        this.fittings = fittings_json;
-        // success
+
+        const hasEmptyItem = data_list.some(item => Object.keys(item).length === 0);
+        if (hasEmptyItem) {
+            console.error("One of the json objects in the data list passed to Fittings class is empty");
+            return;
+        }
+
+        this.data_list = data_list;
         console.log("Fittings initialized");
     }
-    filter(size_1,size_2=null,size_3=null){
-        let matches = this.fittings.filter(f => f.size === size_1) || [];
-        if(size_2 !== null){
-            matches = matches.filter(f=> f.sizes?.includes(size_2));
-        }
-        if(size_3 !== null){
-            matches = matches.filter(f=> f.sizes?.includes(size_3));
-        }
-        return matches || [];
-    }
-    getFittingsBySize(size){
-        return this.fittings.filter(f => f.size === size) || [];
-    }
-    filterListBySize(filtered_list,size){
-        return filtered_list.filter(f => f.sizes?.includes(size));
-    }
     getAvailableSizes(){
-        const sizes = new Set();
-        this.fittings.forEach(el => sizes.add(el.size));
-        return Array.from(sizes).sort();
+        // returns a list of sizes [1.5,2,3] etc
+        return [...new Set(this.data_list.map(item => item.size))];
     }
-    /*
-    the goal is to have the user select a number (1.5, 2 or 3)
-    send that number through getFittingsBySize(size) and they are returned the matches
-    if they then select a subsequent size filter, we run the returned matches through
-    filterListBySize(matches,size) and they then get a further refined list.
-    if they send that refined list through filterListBySize(filtered_list,size2) again,
-    we can then narrow down and find, say, a 2 by 1-1/2 by 1-1/2 inch tee, with three function calls
-        {
-        "type": "tee",
-        "size": 2,
-        "sizes": [
-            2,
-            1.5,
-            1.5
-        ]
-    },
-    */
+    getGroupNamesBySize(size) {
+        // returns a list of group names ["90","45","22"] etc
+        for (const item of this.data_list) {
+            if (item.size === parseFloat(size)) {
+                let categories = [];
+                for (const group of item.groups) {
+                    for (const key of Object.keys(group)) {
+                        categories.push(key);
+                    }
+                }
+                return categories;
+            }
+        }
+        return [];
+    }
+    getUniqueFittingsBySize(size) {
+        // returns a list of fitting objects, {"name", "short name"}
+        for (const item of this.data_list) {
+            if (item.size === parseFloat(size)) {
+                return item.unique;
+            }
+        }
+        return [];
+    }
+    getGroupFittings(size,group_name){
+        for (const item of this.data_list) {
+            if(item.size === parseFloat(size)) {
+                let fittings = [];
+                for (const group of item.groups) {
+                    for (const key of Object.keys(group)) {
+                        if(key === String(group_name)){
+                            fittings = group[key];
+                        }
+                    }
+                }
+                return fittings;
+            }
+        }
+        return [];
+    }
 }

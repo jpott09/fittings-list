@@ -1,0 +1,115 @@
+{
+    "size": 2,
+    "groups":
+    [
+        {
+            "90":
+            [
+                {
+                    "name": "2\" medium 90",
+                    "short name": "2\" 90m"
+                },
+                {
+                    "name": "2\" long 90",
+                    "short name": "2\" 90L"
+                },
+                {
+                    "name": "2\" street 90",
+                    "short name": "2\" 90st"
+                }
+            ]
+        },
+        {
+            "45":
+            [
+                {
+                    "name": "2\" regular 45",
+                    "short name": "2\" 45reg"
+                },
+                {
+                    "name": "2\" street 45",
+                    "short name": "2\" 45st"
+                }
+            ]
+        },
+        {
+            "tee":
+            [
+                {
+                    "name": "2\" tee",
+                    "short name": "2\" tee"
+                },
+                {
+                    "name": "2x1-1/2\" tee",
+                    "short name": "2x1-1/2\" tee"
+                },
+                {
+                    "name": "2x1-1/2x1-1/2\" tee",
+                    "short name": "2x1-1/2x1-1/2\" tee"
+                },
+                {
+                    "name": "2x1-1/2x2\" tee",
+                    "short name": "2x1-1/2x2\" tee"
+                }
+            ]
+        },
+        {
+            "wye":
+            [
+                {
+                    "name": "2\" wye",
+                    "short name": "2\" wye"
+                },
+                {
+                    "name": "2x1-1/2\" wye",
+                    "short name": "2x1-1/2\" wye"
+                }
+            ]
+        },
+        {
+            "22":
+            [
+                {
+                    "name": "2\" regular 22",
+                    "short name": "2\" 22reg"
+                },
+                {
+                    "name": "2\" street 22",
+                    "short name": "2\" 22st"
+                }
+            ]
+        },
+        {
+            "double fixture fitting":
+            [
+                {
+                    "name": "2\" double fixture fitting",
+                    "short name": "2\" p-cross"
+                },
+                {
+                    "name": "2x1-1/2\" double fixture fitting",
+                    "short name": "2x1-1/2\" p-cross"
+                }
+            ]
+        }
+    ],
+    "unique":
+    [
+        {
+            "name": "2\" coupling",
+            "short name": "2\" coupling"
+        },
+        {
+            "name": "2x1-1/2\" bushing",
+            "short name": "2x1-1/2\" bushing"
+        },
+        {
+            "name": "2\" trap",
+            "short name": "2\" trap"
+        },
+        {
+            "name": "2\" tap tee",
+            "short name": "2\" tap tee"
+        }
+    ]
+}

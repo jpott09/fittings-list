@@ -1,0 +1,102 @@
+{
+    "size": 3,
+    "groups":
+    [
+        {
+            "90":
+            [
+                {
+                    "name": "3\" medium 90",
+                    "short name": "3\" 90m"
+                },
+                {
+                    "name": "3\" long 90",
+                    "short name": "3\" 90L"
+                },
+                {
+                    "name": "3\" heel outlet 90",
+                    "short name": "3\" HO90"
+                },
+                {
+                    "name": "3\" street 90",
+                    "short name": "3\" 90st"
+                }
+            ]
+        },
+        {
+            "45":
+            [
+                {
+                    "name": "3\" regular 45",
+                    "short name": "3\" 45reg"
+                },
+                {
+                    "name": "3\" street 45",
+                    "short name": "3\" 45st"
+                }
+            ]
+        },
+        {
+            "tee":
+            [
+                {
+                    "name": "3\" tee",
+                    "short name": "3\" tee"
+                },
+                {
+                    "name": "3x2\" tee",
+                    "short name": "3x2\" tee"
+                }
+            ]
+        },
+        {
+            "wye":
+            [
+                {
+                    "name": "3\" wye",
+                    "short name": "3\" wye"
+                },
+                {
+                    "name": "3x2\" wye",
+                    "short name": "3x2\" wye"
+                }
+            ]
+        },
+        {
+            "22":
+            [
+                {
+                    "name": "3\" regular 22",
+                    "short name": "3\" 22reg"
+                },
+                {
+                    "name": "3\" street 22",
+                    "short name": "3\" 22st"
+                }
+            ]
+        }
+    ],
+    "unique":
+    [
+        {
+            "name": "3\" coupling",
+            "short name": "3\" coupling"
+        },
+        {
+            "name": "3x2\" bushing",
+            "short name": "3x2\" bushing"
+        },
+        {
+            "name": "3\" trap",
+            "short name": "3\" trap"
+        },
+        {
+            "name": "3\" double fixture fitting",
+            "short name": "3\" p-cross"
+        },
+        {
+            "name": "3\" tap tee",
+            "short name": "3\" tap tee"
+        }
+    ]
+}

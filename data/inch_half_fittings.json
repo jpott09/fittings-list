@@ -1,0 +1,72 @@
+{
+    "size": 1.5,
+    "groups":
+    [
+        {
+            "90":
+            [
+                {
+                    "name": "1-1/2\" medium 90",
+                    "short name": "1-1/2\" 90m"
+                },
+                {
+                    "name": "1-1/2\" long 90",
+                    "short name": "1-1/2\" 90L"
+                },
+                {
+                    "name": "1-1/2\" street 90",
+                    "short name": "1-1/2\" 90st"
+                }
+            ]
+        },
+        {
+            "45":
+            [
+                {
+                    "name": "1-1/2\" regular 45",
+                    "short name": "1-1/2\" 45reg"
+                },
+                {
+                    "name": "1-1/2\" street 45",
+                    "short name": "1-1/2\" 45st"
+                }
+            ]
+        },
+        {
+            "22":
+            [
+                {
+                    "name": "1-1/2\" regular 22",
+                    "short name": "1-1/2\" 22reg"
+                },
+                {
+                    "name": "1-1/2\" street 22",
+                    "short name": "1-1/2\" 22st"
+                }
+            ]
+        }
+    ],
+    "unique":
+    [
+        {
+            "name": "1-1/2\" tee",
+            "short name": "1-1/2\" tee"
+        },
+        {
+            "name": "1-1/2\" coupling",
+            "short name": "1-1/2\" coupling"
+        },
+        {
+            "name": "1-1/2\" wye",
+            "short name": "1-1/2\" wye"
+        },
+        {
+            "name": "1-1/2\" double fixture fitting",
+            "short name": "1-1/2\" p-cross"
+        },
+        {
+            "name": "1-1/2\" trap",
+            "short name": "1-1/2\" trap"
+        }
+    ]
+}
