@@ -62,7 +62,7 @@ export class Display{
             this.fittings_list.forEach(entry => {
                 const label = this.document.createElement('label');
                 label.classList.add("unpicked");
-                label.textContent = entry["short name"];
+                label.textContent = `(${entry["quantity"]}) ${entry["short name"]}`;
                 label.onclick = () => {
                     label.classList.toggle("unpicked");
                     label.classList.toggle("picked");
