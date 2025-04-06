@@ -26,9 +26,13 @@ body {
 /* Core Button Style */
 button {
     width: 90%;
-    min-height: 8vh;
+    min-height: 12vh;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     margin: 12px auto;
-    padding: 1.2vh;
+    padding: 2vh 3vw; 
     font-size: var(--font-size);
     font-weight: 600;
     color: #fff;
@@ -38,7 +42,7 @@ button {
     background-color: #1e88e5;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.25));
     box-shadow: var(--shadow-btn), var(--shadow-inset);
-    line-height: 1.2;
+    line-height: 1.4;
     word-break: break-word;
     white-space: normal;
     touch-action: manipulation;
@@ -131,4 +135,10 @@ button.tee {
         linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.25)),
         linear-gradient(145deg, #00ff66 0%, #00a943 100%);
     box-shadow: 0 0 12px rgba(0, 255, 100, 0.5), var(--shadow-btn);
+}
+
+@media (min-width: 768) {
+    button, label {
+        font-size: 2.5vw;
+    }
 }
