@@ -1,7 +1,7 @@
 :root {
     --radius-btn: 20vw;
     --radius-label: 5vw;
-    --font-size: 5vw;
+    --font-size: 40pt;
     --shadow-btn: 0 8px 16px rgba(0, 0, 0, 0.5);
     --shadow-inset: inset 0 -3px 6px rgba(0, 0, 0, 0.35);
     --shadow-label: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -26,13 +26,13 @@ body {
 /* Core Button Style */
 button {
     width: 90%;
-    min-height: 12vh;
-    height: auto;
+    min-height: 9vh;
+    height: 100px;
     display: flex;
     align-items: center; 
     justify-content: center; 
     margin: 12px auto;
-    padding: 2vh 3vw; 
+    padding: 2vh; 
     font-size: var(--font-size);
     font-weight: 600;
     color: #fff;
