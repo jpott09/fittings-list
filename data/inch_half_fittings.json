@@ -67,6 +67,10 @@
         {
             "name": "1-1/2\" trap",
             "short name": "1-1/2\" trap"
+        },
+        {
+            "name": "1-1/2\" test cap",
+            "short name": "1-1/2\" test cap"
         }
     ]
 }

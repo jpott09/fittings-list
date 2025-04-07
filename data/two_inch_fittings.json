@@ -110,6 +110,14 @@
         {
             "name": "2\" tap tee",
             "short name": "2\" tap tee"
+        },
+        {
+            "name": "2\" test cap",
+            "short name": "2\" test cap"
+        },
+        {
+            "name": "2\" glue cap",
+            "short name": "2\" glue cap"
         }
     ]
 }

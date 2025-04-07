@@ -97,6 +97,14 @@
         {
             "name": "3\" tap tee",
             "short name": "3\" tap tee"
+        },
+        {
+            "name": "3\" test cap",
+            "short name": "3\" test cap"
+        },
+        {
+            "name": "3\" glue cap",
+            "short name": "3\" glue cap"
         }
     ]
 }
